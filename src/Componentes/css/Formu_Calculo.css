@@ -1,0 +1,137 @@
+.contenedor_formu_calculo{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.contenedor_formu_calculo > form{
+    width: 50%;
+    background-color: var(--color-3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 20px;
+    border-radius: 10px;
+    border: var(--border-2);
+    filter: var(--sombra-1);
+}
+
+.contenedor_formu_calculo > form > :nth-child(1){
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.contenedor_formu_calculo > form > :nth-child(1) > label{
+    font-size: 35px;
+    text-align: center;
+}
+
+.contenedor_formu_calculo > form > :nth-child(1) > div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.contenedor_formu_calculo > form > :nth-child(1) > div > input{
+    width: 100%;
+    font-size: 20px;
+    padding: 3px;
+    border: var(--border-2);
+    outline: none;
+    border-radius: 10px;
+}
+
+.contenedor_formu_calculo > form > :nth-child(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.contenedor_formu_calculo > form > :nth-child(2) > :nth-child(1){
+    width: 100%;
+    font-size: 35px;
+}
+
+.contenedor_formu_calculo > form > :nth-child(2) > :nth-child(2){
+    font-size: 25px;
+}
+
+.contenedor_formu_calculo > form > :nth-child(3){
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.contenedor_formu_calculo > form > :nth-child(3) > label{
+    font-size: 35px;
+    text-align: center;
+}
+
+.contenedor_formu_calculo > form > :nth-child(3) > input{
+    width: 100%;
+    font-size: 20px;
+    padding: 3px;
+    border: var(--border-2);
+    outline: none;
+    border-radius: 10px;
+}
+
+.contenedor_formu_calculo > form > :nth-child(4) > button{
+    font-size: 30px;
+    color: black;
+    border-radius: 10px;
+    padding: 5px 15px;
+    background-color: var(--color-4);
+    border: none;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.contenedor_formu_calculo > form > :nth-child(4) > button:hover{
+    filter: var(--sombra-2);
+}
+
+
+/* ----- */
+
+.contenedor_formu_calculo > div{
+    width: 50%;
+    background-color: var(--color-3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 20px;
+    border-radius: 10px;
+    border: var(--border-2);
+    filter: var(--sombra-1);
+}
+
+.contenedor_formu_calculo > div > p{
+    font-size: 35px;
+    text-align: center;
+    width: 300px;
+}
+
+.contenedor_formu_calculo > div > input{
+    width: 60%;
+    font-size: 20px;
+    padding: 3px;
+    border: var(--border-2);
+    outline: none;
+    border-radius: 10px;
+}

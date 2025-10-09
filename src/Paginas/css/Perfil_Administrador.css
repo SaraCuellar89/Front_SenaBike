@@ -1,0 +1,30 @@
+.contenedor_perfil_administrador{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor_perfil_administrador > div{
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor_perfil_administrador > div > :nth-child(2){
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8vh;
+    margin-bottom: 20vh;
+}
+
+.contenedor_perfil_administrador > div > :nth-child(2) > div{
+    width: 100%;
+}

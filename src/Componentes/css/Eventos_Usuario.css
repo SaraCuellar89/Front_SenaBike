@@ -1,0 +1,63 @@
+.contenedor_eventos_usuario{
+    background-color: var(--color-3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+    border-radius: 10px;
+    filter: var(--sombra-1);
+    border: var(--border-2);
+}
+
+.contenedor_eventos_usuario > :nth-child(1){
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor_eventos_usuario > :nth-child(1) > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.contenedor_eventos_usuario > :nth-child(2){
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contenedor_eventos_usuario > :nth-child(2) > :nth-child(1){
+    font-size: 45px;
+}
+
+.contenedor_eventos_usuario > :nth-child(2) > :nth-child(2){
+    font-size: 25px;
+}
+
+.contenedor_eventos_usuario > :nth-child(3){
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.contenedor_eventos_usuario > :nth-child(3) > button{
+    font-size: 30px;
+    color: var(--color-3);
+    border-radius: 10px;
+    padding: 10px 5px;
+    background-color: var(--color-5);
+    border: none;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.contenedor_eventos_usuario > :nth-child(3) > button:hover{
+    filter: var(--sombra-2);
+}

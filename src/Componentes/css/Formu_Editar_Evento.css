@@ -1,0 +1,104 @@
+.contenedor_formu_editar_evento{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+}
+
+.contenedor_formu_editar_evento > div{
+    width: 50%;
+    filter: var(--sombra-1);
+}
+
+.contenedor_formu_editar_evento > div > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.contenedor_formu_editar_evento > form{
+    width: 50%;
+    background-color: var(--color-3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border-radius: 10px;
+    border: var(--border-2);
+    filter: var(--sombra-1);
+    padding: 40px 0px;
+}
+
+.contenedor_formu_editar_evento > form > div{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.contenedor_formu_editar_evento > form > div > label{
+    font-size: 35px;
+}
+
+.contenedor_formu_editar_evento > form > div > input{
+    width: 100%;
+    font-size: 20px;
+    padding: 3px;
+    border: var(--border-2);
+    outline: none;
+    border-radius: 10px;
+}
+
+.contenedor_formu_editar_evento > form > div > textarea{
+    width: 100%;
+    height: 150px;
+    font-size: 20px;
+    padding: 3px;
+    border: var(--border-2);
+    outline: none;
+    border-radius: 10px;
+}
+
+.contenedor_formu_editar_evento > form > div > p{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.contenedor_formu_editar_evento > form > div > select{
+    width: 100%;
+    font-size: 20px;
+    padding: 3px;
+    border: var(--border-2);
+    outline: none;
+    border-radius: 10px;
+}
+
+.contenedor_formu_editar_evento > form > div > button{
+    width: 40%;
+    font-size: 30px;
+    color: black;
+    border-radius: 10px;
+    padding: 5px 15px;
+    background-color: var(--color-4);
+    border: none;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.contenedor_formu_editar_evento > form > div > .btn_editar{
+    color: white;
+    background-color: var(--color-5);
+}
+
+.contenedor_formu_editar_evento > form > div > button:hover{
+    filter: var(--sombra-2);
+}
+
+.contenedor_formu_editar_evento > form > div > a{
+    font-size: 20px;
+    color: black;
+}

@@ -1,0 +1,28 @@
+.contenedor_bicicletas{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor_bicicletas > div{
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor_bicicletas > div > :nth-child(2){
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10vh;
+    margin-bottom: 20vh;
+    margin-top: 10vh;
+}

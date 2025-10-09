@@ -1,0 +1,118 @@
+.contenedor_bicicletas_mapa_administrador{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.caja_bicicletas_mapa_administrador{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: var(--border-2);
+    padding: 20px;
+    gap: 30px;
+}
+
+.caja_bicicletas_mapa_administrador > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.caja_bicicletas_mapa_administrador > div > img{
+    width: 50%;
+    object-fit: contain;
+}
+
+.caja_bicicletas_mapa_administrador > div > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.caja_bicicletas_mapa_administrador > div > div > div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.caja_bicicletas_mapa_administrador > div > div > div > :nth-child(1){
+    font-size: 30px;
+    text-align: center;
+}
+
+.caja_bicicletas_mapa_administrador > div > div > div > :nth-child(2){
+    font-size: 20px;
+    text-align: center;
+}
+
+.caja_bicicletas_mapa_administrador > div > div > div > :nth-child(3){
+    font-size: 20px;
+    text-align: center;
+}
+
+.caja_bicicletas_mapa_administrador > :nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.caja_bicicletas_mapa_administrador > :nth-child(2) > :nth-child(1) > button{
+    font-size: 30px;
+    color: black;
+    border-radius: 10px;
+    padding: 5px 15px;
+    background-color: var(--color-4);
+    border: none;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.caja_bicicletas_mapa_administrador > :nth-child(2) > :nth-child(1) > button:hover{
+    filter: var(--sombra-2);
+}
+
+.caja_bicicletas_mapa_administrador > :nth-child(2) > :nth-child(2){
+    font-size: 30px;
+    color: black;
+    border-radius: 10px;
+    padding: 5px 15px;
+    background-color: var(--color-5);
+    border: none;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.caja_bicicletas_mapa_administrador > :nth-child(2) > button:hover{
+    filter: var(--sombra-2);
+}
+
+
+
+.contenedor_mapa_administrador{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mapa_bicicletas_mapa_administrador{
+    width: 100%;
+    height: 100%;
+    filter: var(--sombra-1);
+    border-radius: 10px;
+}
+

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Carter+One&family=Caveat:wght@400..700&family=Delius&family=Gaegu&family=Handlee&family=Jolly+Lodger&family=Oswald:wght@200..700&family=Poppins:wght@300;400&family=Protest+Revolution&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rock+Salt&family=Shadows+Into+Light&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Gaegu", sans-serif;
+}
+
+body{
+    background-color: var(--color-1);
+}
+
+:root{
+    --color-1: #EDF2C9;
+    --color-2: #D4D955;
+    --color-3: #FDFFEE;
+    --color-4: #9DBF21;
+    --color-5: #C2681B;
+    --color-6: #738C16;
+
+    --sombra-1: drop-shadow(0px 10px 5px rgb(0, 0, 0, .5));
+    --sombra-2: drop-shadow(0px 5px 2px rgb(0, 0, 0, .5));
+
+    --border-1: solid 5px var(--color-4);
+    --border-2: solid 3px var(--color-4);
+}

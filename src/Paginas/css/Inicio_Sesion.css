@@ -1,0 +1,27 @@
+.contenedor_inicio_sesion{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor_inicio_sesion > div{
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor_inicio_sesion > div > :nth-child(2){
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    gap: 8vh;
+    margin-bottom: 20vh;
+    margin-top: 10vh;
+}

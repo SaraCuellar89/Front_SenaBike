@@ -1,0 +1,78 @@
+.contenedor_encabezado_usuario{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.contenedor_encabezado_usuario > :nth-child(1){
+    width: 100%;
+    background-color: var(--color-3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: var(--border-2);
+    filter: var(--sombra-1);
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
+.contenedor_encabezado_usuario > :nth-child(1) > div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contenedor_encabezado_usuario > :nth-child(1) > div > :nth-child(1){
+    font-size: 37px;
+}
+
+.contenedor_encabezado_usuario > :nth-child(1) > div > :nth-child(2){
+    font-size: 30px;
+}
+
+.contenedor_encabezado_usuario > :nth-child(1) > div > :nth-child(3){
+    font-size: 25px;
+}
+
+.contenedor_encabezado_usuario > :nth-child(1) > button{
+    font-size: 30px;
+    color: var(--color-3);
+    border-radius: 10px;
+    padding: 10px 35px;
+    background-color: var(--color-5);
+    border: none;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.contenedor_encabezado_usuario > :nth-child(1)  > button:hover{
+    filter: var(--sombra-2);
+}
+
+
+
+/* ----- */
+.contenedor_encabezado_usuario > :nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.contenedor_encabezado_usuario > :nth-child(2) > button{
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 10px 30px;
+    background-color: var(--color-4);
+    border: none;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.contenedor_encabezado_usuario > :nth-child(2) > button:hover{
+    filter: var(--sombra-2);
+}

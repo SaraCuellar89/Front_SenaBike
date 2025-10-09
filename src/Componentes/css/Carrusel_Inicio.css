@@ -1,0 +1,81 @@
+.contenedor_carrusel_inicio{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor_carrusel_inicio > p{
+    font-size: 40px;
+    padding: 30px 0px 40px 0px;
+    width: 300px;
+    text-align: center;
+}
+
+.carrusel_inicio{
+    background-color: var(--color-3);
+    width: 60%;
+    border-radius: 10px;
+    filter: var(--sombra-1);
+    border: var(--border-1);
+}
+
+.evento_carrusel_inicio{
+    display: flex  !important;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.evento_carrusel_inicio > :nth-child(1){
+    width: 50%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    padding: 30px;
+}
+
+.evento_carrusel_inicio > :nth-child(1) > img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.evento_carrusel_inicio > :nth-child(2){
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.evento_carrusel_inicio > :nth-child(2) > :nth-child(1){
+    font-size: 40px;
+    text-align: center;
+}
+
+.evento_carrusel_inicio > :nth-child(2) > :nth-child(2){
+    font-size: 25px;
+    text-align: center;
+}
+
+.evento_carrusel_inicio > :nth-child(2) > a > button{
+    font-size: 25px;
+    color: var(--color-3);
+    border-radius: 10px;
+    padding: 10px 5px;
+    background-color: var(--color-5);
+    border: none;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.evento_carrusel_inicio > :nth-child(2) > a > button:hover{
+    filter: var(--sombra-2);
+}

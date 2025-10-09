@@ -1,0 +1,41 @@
+.contenedor_bicicletas_administrador{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor_bicicletas_administrador > div{
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor_bicicletas_administrador > div > :nth-child(2){
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 8vh;
+    margin-bottom: 20vh;
+    margin-top: 10vh;
+}
+
+.contenedor_bicicletas_administrador > div > :nth-child(2) > :nth-child(1){
+    background-color: var(--color-3);
+    width: fit-content;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: var(--border-2);
+    filter: var(--sombra-1);
+    overflow: auto;
+}
