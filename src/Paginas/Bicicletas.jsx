@@ -18,7 +18,8 @@ const Bicicletas = () => {
         const Obtener_Bicicletas = async () => {
             try{
                 const res = await fetch('https://back-sena-bike.vercel.app/listar_bicicletas', {
-                    credentials: 'include',
+                        credentials: 'include',
+                    }
                 )
                 const datos = await res.json()
 
