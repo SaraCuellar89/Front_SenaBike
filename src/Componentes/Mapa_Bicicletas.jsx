@@ -2,6 +2,19 @@ import React, { useState, useEffect } from "react";
 import { MapContainer, Marker, Popup, TileLayer, useMap, useMapEvents } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import "../Componentes/css/Bicicletas_Mapa_Administrador.css";
+import L from 'leaflet';
+import 'leaflet/dist/leaflet.css';
+
+// Soluciona los íconos rotos en Vite / Webpack
+import iconUrl from 'leaflet/dist/images/marker-icon.png';
+import iconRetinaUrl from 'leaflet/dist/images/marker-icon-2x.png';
+import shadowUrl from 'leaflet/dist/images/marker-shadow.png';
+
+L.Icon.Default.mergeOptions({
+  iconRetinaUrl,
+  iconUrl,
+  shadowUrl,
+});
 
 
 //cambiar la vista cuando cambian las coordenadas
